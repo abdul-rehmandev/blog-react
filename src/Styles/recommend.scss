@@ -1,0 +1,39 @@
+.recommend-box {
+    border: 2px solid #FF3131;
+    width: 100%;
+    height: 100px;
+    margin: 10px 0px;
+    padding: 2px;
+
+    .link {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .imageSection {
+            width: 100px;
+            height: 90px;
+            width: 30%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                background-size: cover;
+            }
+        }
+
+        .details {
+            width: 70%;
+            margin-left: 2px;
+
+            .title {
+                font-weight: bolder;
+                color: #FF3131;
+            }
+
+            .date {
+                color: gray;
+            }
+        }
+    }
+}

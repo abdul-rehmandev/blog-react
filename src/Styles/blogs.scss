@@ -1,0 +1,59 @@
+.blogs-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    .left {
+        width: 65%;
+
+        .header {
+            border-bottom: 2px solid gray;
+
+            h3 {
+                display: inline-block;
+                background: #FF3131;
+                padding: 10px;
+                color: white;
+                margin: 0px;
+                border-radius: 0px 40px 0px 0px;
+            }
+        }
+
+        .blogs {
+            .loadMore-btn {
+                text-align: center;
+
+                button {
+                    border: 2px solid #FF3131;
+                    padding: 10px 20px;
+                    border-radius: 30px;
+                    background: #FF3131;
+                    color: white;
+                    font-weight: bolder;
+
+                    &:hover {
+                        background-color: white;
+                        color: #FF3131;
+                    }
+                }
+            }
+        }
+    }
+
+    .right {
+        width: 30%;
+
+        .header {
+            border-bottom: 2px solid gray;
+
+            h3 {
+                display: inline-block;
+                background: #FF3131;
+                padding: 10px;
+                color: white;
+                margin: 0px;
+                border-radius: 0px 40px 0px 0px;
+            }
+        }
+    }
+}

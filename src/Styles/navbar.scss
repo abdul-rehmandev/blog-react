@@ -1,0 +1,33 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+        img {
+            width: 40px;
+        }
+    }
+
+    .right {
+        .link {
+            margin: 0px 5px;
+            padding: 3px 10px;
+            border-radius: 30px;
+            font-weight: bolder;
+
+            &:hover {
+                color: #FF3131;
+            }
+        }
+
+        .active {
+            background-color: #FF3131;
+            color: white;
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
